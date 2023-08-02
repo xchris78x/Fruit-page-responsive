@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruit-page-responsive</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<style>
+  /* CSS for medium and large screens */
+@media (min-width: 768px) {
+    .custom-navbar {
+        top: -2rem;
+    }
+}
+
+/* CSS for small screens */
+@media (max-width: 768px) {
+    .custom-dark {
+        height: 250px ;
+    }
+}
+
+/* CSS for extra small screens */
+@media (max-width: 500px) {
+  .custom-dark {
+        height: 150px;
+    }
+}
+
+</style>
+<body>
+
+   <!--- navbar --->
+   <header class="bg-dark custom-dark text-white text-center" style="background-image: url(img/bg-logo.png); background-size: 100%; height: 50vh; background-position: center; background-repeat: no-repeat;">
+    <div class="container pt-2">
+        <h1 class="display-4">NINON</h1>
+    </div>
+</header>
+
+   <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body position-relative container " data-bs-theme="dark" style=" top:-2rem">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link fs-5 mx-4" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 mx-4" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 mx-4" href="#fruit">Our Fruit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 mx-4" href="#testimonial">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 mx-4" href="#contact">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 mx-4" href="#">Login</a>
+          </li>
+        </ul>
+        <form class="d-flex me-5" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </nav>
+
+   <!--- shop --->
+
+   <div class="container-fluid my-5 text-center">
+    <div class="d-flex flex-column align-items-center ">
+    <h1>FRUIT SHOP</h1class=>
+    <h3 class="mb-lg-5 mb-3">There are many varations of passage of Lorem Ipsum available</h3>
+    <img src="img/img1.png" alt="image" class="img-fluid"> <br>
+    <button type="submit" class="btn btn-dark my-lg-5 my-3">READ MORE</button>
+</div>
+</div>
+  <!--- about --->
+
+  <div class="container-fluid my-5" id="about">
+    <div class="row mx-lg-5">
+      <div class="col-lg-6 col-12">
+        <img src="img/img2.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-lg-3 col-12 mt-5 text-center">
+        <h1 class="my-lg-5 my-3">About Our Fruit Shop</h1>
+        <p class="my-lg-5 my-3">There are many variations of passages of Lorem Ipsum  <br> available, but the majority have suffered alteration in <br> some form, by injected humour</p>
+        <button type="submit" class="btn btn-dark my-lg-5 my-3">READ MORE</button>
+      </div>
+      <div class="col-3"></div>
+    </div>
+  </div>
+
+  <!--- fruits --->
+
+  <div class="container-fluid ms-lg-5 my-5" id="fruit">
+  <div class="row my-5">
+    <div class="col-lg 4"></div>
+    <div class="col-lg-4 col-12 text-lg-start text-center" >
+      <h1>Fresh Fruit</h1>
+    </div>  
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4 col-md-6 d-flex align-items-center my-3">
+      <div class="position-relative">
+          <img src="img/fruit1.png" class="img-fluid" alt="Image 1">
+          <button type="submit" class="btn btn-outline-dark m-0 p-0 position-absolute top-50 start-50 translate-middle btn-lg w-50">Buy Now</button>
+      </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex align-items-center my-3">
+        <div class="position-relative">
+            <img src="img/fruit2.png" class="img-fluid" alt="Image 1">
+            <button type="submit" class="btn btn-outline-dark m-0 p-0 position-absolute top-50 start-50 translate-middle btn-lg w-50">Buy Now</button>
+        </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-center my-3">
+          <div class="position-relative">
+              <img src="img/fruit3.png" class="img-fluid" alt="Image 1">
+              <button type="submit" class="btn btn-outline-dark m-0 p-0 position-absolute top-50 start-50 translate-middle btn-lg w-50">Buy Now</button>
+          </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-center my-3">
+            <div class="position-relative">
+                <img src="img/fruit4.png" class="img-fluid" alt="Image 1">
+                <button type="submit" class="btn btn-outline-dark m-0 p-0 position-absolute top-50 start-50 translate-middle btn-lg w-50">Buy Now</button>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-center my-3">
+              <div class="position-relative">
+                  <img src="img/fruit5.png" class="img-fluid" alt="Image 1">
+                  <button type="submit" class="btn btn-outline-dark m-0 p-0 position-absolute top-50 start-50 translate-middle btn-lg w-50">Buy Now</button>
+              </div>
+              </div>
+              <div class="col-lg-4 col-md-6 d-flex align-items-center my-3">
+                <div class="position-relative">
+                    <img src="img/fruit6.png" class="img-fluid" alt="Image 1">
+                    <button type="submit" class="btn btn-outline-dark m-0 p-0 position-absolute top-50 start-50 translate-middle btn-lg w-50">Buy Now</button>
+                </div>
+                </div>
+          
+  </div>
+</div>
+
+
+  <!--- customer --->
+
+  <div class="container my-5" id="customer">
+  <div class="text text-center">
+  <h1 class="mb-5 display-3">What Syas Cutomer</h1>
+  <img src="img/img3.png" alt="" class="img-fluid mb-5">
+  <h3 class="mb-5">Jone Mark</h3>
+  <p class="mb-5">Lorem ipsum dolor sit amet, <br>
+    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+    <br>
+    veniam, quis nostrud exercitation ullamco laboris ut aliquip ex ea commodo <br>
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
+  </div>
+</div>
+
+
+  <!--- maps --->
+
+  <div class="container my-5" id="maps">
+    <h1 class="text-center my-5">Request A call back</h1>
+    <div class="row">
+      <div class="col-lg-4 col-12">
+        <form>
+          <div class="form-group my-5">
+            <input type="text" class="form-control" id="name" name="name" required placeholder=" Full Name">
+          </div>
+          <div class="form-group mb-5">
+            <input type="email" class="form-control" id="email" name="email" required placeholder="Email">
+          </div>
+          <div class="form-group mb-5">
+            <input type="tel" class="form-control" id="phone" name="phone" required placeholder="Phone">
+          </div>
+          <div class="form-group mb-5">
+            <textarea class="form-control" id="message" name="message" rows="4" required
+              placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-warning btn-lg w-50 my-5">Send</button>
+        </form>
+      </div>
+      <div class="col-lg-8 col-12">
+        <img src="img/maps.png" alt="image" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <!--- contact --->
+
+  <div class="container-fluid text-center py-5 text-white" style="background-color: #2e2e2e;">
+    <h1>NINON</h1>
+    <div class="container">
+      <div class="row my-5 justify-content-center">
+        <div class="col-lg-4 col-12 d-lg-flex mb-3 text-lg-start text-center align-items-center">
+          <i class="fa fa-map-marker fa-2x"></i>
+          <h5 class="ms-3">Passages of Lorem Ipsum available</h5>
+        </div>
+        <div class="col-lg-4 col-12 d-lg-flex d-block mb-3 text-lg-start text-center align-items-center">
+          <i class="fa fa-phone fa-2x"></i>
+          <h5 class="ms-3">Call : +012334567890</h5>
+        </div>
+        <div class="col-lg-4 col-12 d-lg-flex d-block mb-3 text-lg-start text-center align-items-center">
+          <i class="fa fa-envelope fa-2x"></i>
+          <h5 class="ms-3">demo@gmail.com</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-8 col-12 d-lg-flex d-block mb-3 text-lg-start text-center align-items-center">
+          <form class="d-flex justify-content-center">
+            <div class="mb-3">
+              <input type="email" class="form-control form-control-lg" id="exampleInputEmail1"
+                placeholder="Enter Your Email...." size="45">
+            </div>
+            <button type="submit" class="btn btn-warning" style="height: 50px; width: 250px;">SUBSCRIBE</button>
+          </form>
+        </div>
+        <div class="col-lg-4 col-12 mt-3 mb-5 d-lg-flex d-block text-lg-start text-center align-items-center">
+          <i class="fab fa-facebook fa-2x"></i>
+          <i class="fab fa-instagram fa-2x"></i>
+          <i class="fab fa-twitter fa-2x"></i>
+          <i class="fab fa-linkedin fa-2x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+ <!-- footer -->
+
+  <footer class="footer mt-auto py-3 bg-white text-center">
+    <p>© 2019 All Rights Reserved. Design by Free Html Templates</p>
+  </footer>
+
+  <!--- js --->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
